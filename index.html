@@ -14,33 +14,114 @@
         <hr>
         </header>
         <section>
-            <h3><p><span>Members Present<a href=#Portraits><br>Say Hi!</a></span></p></h3>
-            <nav>
-                <ul>
-                    <li><strong> Emperor Palpatine <i>(Meeting Leader)</i></strong></li>
-                    <li><b>Darth Vader <i>(Meeting Second in Command)</i></b></li>
-                    <li><b>Grand Moff Tarkin <i>(Meeting Notes Writer)</i></b></li>
-                    <li><b>Grand Adrmiral Thrawn <em>(Meeting Brainstormer)</em></b></li>
-                    <li>Admiral Yularen</li>
-                    <li>Grand Inquisitor</li>
-                    <li>Moff Gideon</li>
-                </ul>  
-            </nav>
+            <details>
+                <summary><span><h3>Members Present</h3></span></summary>
+                <h3><a href=#Portraits><br>Say Hi!</a></h3>
+                <nav>
+                    <ul>
+                        <li><strong> Emperor Palpatine <i>(Meeting Leader)</i></strong></li>
+                        <li><b>Darth Vader <i>(Meeting Second in Command)</i></b></li>
+                        <li><b>Grand Moff Tarkin <i>(Meeting Notes Writer)</i></b></li>
+                        <li><b>Grand Adrmiral Thrawn <em>(Meeting Brainstormer)</em></b></li>
+                        <li>Admiral Yularen</li>
+                        <li>Grand Inquisitor</li>
+                        <li>Moff Gideon</li>
+                    </ul>  
+                </nav>
+            </details>
         </section>  
-            <h3><p><div>Meeting Agenda</div></p></h3>
-            <ol>
-                <li>Finalize Name</li>
-                <li>Max Capacity</li>
-                <li>Max Range</li>
-                <li>Chain of Command in Death Star</li>
-                <li>AC Temperature Preferences Indoors</li>
-            </ol>
+        <section>
+            <details>
+                <summary><div><h3>Meeting Agenda</h3></div></summary>
+                    <ol>
+                        <li>Finalize Name</li>
+                        <li>Max Capacity</li>
+                        <li>Max Range</li>
+                        <li>Chain of Command in Death Star</li>
+                        <li>AC Temperature Preferences Indoors</li>
+                    </ol>
+            </details>
+        </section>
+        <section>
+            <h3>Unfinished Business</h3>
+            <ul>
+                <li>Please fill out uniform sizes form!</li>
+                <li>Fill in Empire Day potluck spreadsheet with what you can bring</li>
+            </ul>
+            <h3>New Business</h3>
+            <ul>
+                <li>Emperor Palpatine's birthday is coming up - think of your best gift!</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Concerns Brought Up</h3>
+            <ul>
+                <p><i>Darth Vader is intimidating me</i><br><p>Sorry I can't help you with that</p>
+            </ul>
+        </section>
+        <section>
+            <h3>Our Decided Theme Music From Last Meeting</h3>
+            <audio controls>
+                <source src="imgs/imperial_march.mp3" type="audio/mpeg">
+            </audio>
+            <p>Everyone is expected to dance like this upon hearing the theme song, or you will be punished.</p>
+            <video width="320" height="240" controls>
+                <source src="imgs/Hammoud.mp4" type="video/mp4">
+                
+              </video>
+        </section>
         <section>
             <h3 id="Portraits">Say Hi to the Team</h3>
             <ul>
-                <li><img></li>
+                <img src="imgs/Portrait.palpatine.png" alt="Palpatine">
+                <img src="imgs/vader.png" alt="Vader">
+                <img src="imgs/tarkin.png" alt="Tarkin">
+                <img src="imgs/thrawn.png" alt="Thrawn">
+                <img src="imgs/yularen.png" alt="Yularen" width="400" height="500">
+                <img src="imgs/grand.png" alt="Grand Inquisitor">
+                <img src="imgs/gideon.png" alt="Gideon">
             </ul>
         </section>
+        <form>
+            <fieldset>
+                <legend>Member Form:</legend>
+                <label>Name:</label>
+                <input type="text"><br><br>
+                <label>Today's Date:</label>
+                <input type="date"><br><br>
+                <p>Please select your age:</p>
+                <input type="radio">
+                <label>0 - 19</label><br>
+                <input type="radio">
+                <label>20 - 39</label><br>  
+                <input type="radio">
+                <label>40+</label><br><br>
+                <label>Any Concerns?</label>
+                <textarea></textarea><br><br>
+                <label>Planet of Residence</label>
+                <input list="browsers">
+                <datalist id="browsers">
+                    <option value="Coruscant">
+                    <option value="Endor">
+                    <option value="Naboo">
+                    <option value="Tatooine">
+                    <option value="Other">
+                </datalist><br><br>
+                <input type="checkbox">
+                <label>I have a ship</label><br>
+                <input type="checkbox">
+                <label>I have a speeder</label><br><br>
+                <label for="cars">Choose your Ship Type (if applicable):</label>
+                <select>
+                    <option>X-Wing</option>
+                    <option>Y-Wing</option>
+                </select><br><br>
+                <button>Submit</button>
+            </fieldset>
+           </form>
+        <footer>
+            <p>Death Star Inc.</p>
+        </footer>
     </main>
   </body>
 </html>
