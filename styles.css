@@ -75,11 +75,11 @@ body{
 }
 
 #audio{
-    margin: 1em 1em 1em 5vm;
+    margin: 1em 1em 1em 5vw;
 }
 
 #video{
-    margin: 1em 1em 1em 5vm;
+    margin: 1em 1em 1em 5vw;
     height: 240px;
     width: 320px;
     max-height: fit-content;
