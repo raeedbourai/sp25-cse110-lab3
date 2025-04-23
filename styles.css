@@ -67,7 +67,8 @@ body{
 }
 
 #Date{
-    position: static
+    position: static;
+    color: color-mix(in lch, #15054a 70%, #fb54a0 30%);
 }
 
 #Topic{
