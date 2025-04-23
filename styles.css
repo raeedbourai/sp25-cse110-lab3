@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Oribitron';
+    src: url('Font/Oribitron.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Oribitron', fallback-font, sans-serif;
+}
+
+body{
+    background-color: rgb(252, 204, 252);
+}
+
+.Title{
+    color: #04363b
+}
+
+.Portrait{
+    border-width: 10px;
+    border-color: black;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+#OverallTitle{
+    color: color(display-p3 0.5 0.2 0.2)
+}
+
+#Date{
+    color: color-mix(in lch, #15054a 70%, #fb54a0 30%);
+}
